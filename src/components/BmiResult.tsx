@@ -12,7 +12,8 @@ const BmiResult: React.FC<{ resultBmi: number }> = ({ resultBmi }) => {
             <IonCol>
                 <IonCard>
                     <IonCardContent className="ion-text-center">
-                        <h2>{resultBmi.toFixed(2)}</h2>
+                        <h2>Your Body-Mass-Index</h2>
+                        <h3>{resultBmi.toFixed(2)}</h3>
                     </IonCardContent>
                 </IonCard>
             </IonCol>
